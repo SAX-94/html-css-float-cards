@@ -31,7 +31,9 @@ h1, p {
 
 .box {
     background-color: #0f0e17;
-    width: calc(100% /3);
+    width: calc(100% / 3 - 24px);
+    float: left;
+    margin: 40px 12px ;
 }
 
 .pic {
