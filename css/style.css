@@ -3,3 +3,20 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    color: red;
+    margin-bottom: 30px;
+}
+
+p {
+    margin-bottom: 23px;
+}
+
+h1, p {
+    text-align: center;
+}
