@@ -6,11 +6,13 @@
 
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 30px 150px 300px;
 }
 
 h1 {
     color: red;
     margin-bottom: 30px;
+    font-family: "Arial Black";
 }
 
 p {
@@ -19,4 +21,40 @@ p {
 
 h1, p {
     text-align: center;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.box {
+    background-color: #0f0e17;
+    width: calc(100% /3);
+}
+
+.pic {
+    float: left;
+    width: 120px;
+}
+
+.name {
+    font-family: "Arial Black";
+}
+
+.name, .job {
+    color: white;
+}
+
+.email {
+    color: #0f9cdc;
+}
+
+.box img {
+    margin-right: 12px;
+}
+
+.name, .job, .email {
+    padding-top: 13px;
 }
