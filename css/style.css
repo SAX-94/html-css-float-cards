@@ -6,17 +6,17 @@
 
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 30px 150px 300px;
+    padding: 30px 200px 300px;
 }
 
 h1 {
-    color: red;
-    margin-bottom: 30px;
-    font-family: "Arial Black";
+    color: #e53170;
+    margin-bottom: 45px;
+    font-family: 'Fredoka One', cursive;
 }
 
 p {
-    margin-bottom: 23px;
+    margin-bottom: 23px;    
 }
 
 h1, p {
@@ -33,7 +33,7 @@ h1, p {
     background-color: #0f0e17;
     width: calc(100% / 3 - 24px);
     float: left;
-    margin: 30px 12px ;
+    margin: 26px 12px ;
 }
 
 .pic {
@@ -42,7 +42,7 @@ h1, p {
 }
 
 .name {
-    font-family: "Arial Black";
+    font-family: 'Fredoka One', cursive;
 }
 
 .name, .job {
