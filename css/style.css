@@ -33,7 +33,7 @@ h1, p {
     background-color: #0f0e17;
     width: calc(100% / 3 - 24px);
     float: left;
-    margin: 40px 12px ;
+    margin: 30px 12px ;
 }
 
 .pic {
